@@ -1,7 +1,7 @@
 <h1 align="center"> Dev.Process - God of War </h1>
 
 <p align="center">
-Evento gratuito promovido pela equipe do curso</br>  CodeBoost para ensino de tecnologias WEB.
+Evento gratuito promovido pela equipe do curso CodeBoost para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
@@ -15,13 +15,14 @@ Evento gratuito promovido pela equipe do curso</br>  CodeBoost para ensino de te
   <img alt="Landing page do jogo God Of War Ragnarok" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologia
+
+---
 
 As seguintes tecnologias foram utilizadas no desenvolvido desse projeto:
 
 - HTML
-- CSS
-- SASS
+- CSS e SASS
 - JavaScript
 - Git e Github
 
@@ -29,6 +30,8 @@ As seguintes tecnologias foram utilizadas no desenvolvido desse projeto:
 
 ## 💻 Projeto
 
-O projeto God Of War foi desenvolvido com o intuido educacional. Como resultado temos uma landing page fictícia para o recém lançado jogo God Of War Ragnarök
+---
 
-O Calendário da Copa do Mundo 2022 é um projeto que mostra as datas e horários dos jogos da Copa de 2022.
+Criado com o intuito educacional, o projeto God of War resultou em uma landing page fictícia para o recém lançado jogo God of War Ragnarök.
+
+Centrado na aplicação das bases do desenvolvimento web, o projeto passa pela estruturação do site com o HTML e estilização com CSS e SASS, além dá utilização de bibliotecas javascript que permitem criar interações e animações.
