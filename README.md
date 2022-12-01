@@ -17,8 +17,6 @@ Evento gratuito promovido pela equipe do curso CodeBoost para ensino de tecnolog
 
 ## 🚀 Tecnologia
 
----
-
 As seguintes tecnologias foram utilizadas no desenvolvido desse projeto:
 
 - HTML
@@ -29,8 +27,6 @@ As seguintes tecnologias foram utilizadas no desenvolvido desse projeto:
 <br>
 
 ## 💻 Projeto
-
----
 
 Criado com o intuito educacional, o projeto God of War resultou em uma landing page fictícia para o recém lançado jogo God of War Ragnarök.
 
