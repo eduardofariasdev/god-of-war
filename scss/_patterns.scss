@@ -1,0 +1,144 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  @media(max-width: 1440px) {
+    span {
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
+  }
+
+  @media(max-width: 991px) {
+    justify-content: center;
+  }
+
+}
+
+// Cabeçalhos e textos
+h1 {
+  font-weight: 700;
+  font-size: 12.4rem;
+  line-height: 97.5%;
+
+  @media(max-width: 1440px) {
+    font-size: 12rem;
+  }
+
+  @media(max-width: 1200px) {
+    font-size: 10rem;
+  }
+
+  @media(max-width: 560px) {
+    font-size: 5.4rem;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 130%;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 160%;
+  color: #BDC2CB;
+
+  @media(max-width: 1440px) {
+    font-size: 1.8rem;
+  }
+}
+
+// Cartão do Personagem
+.card-character {
+  width: 100%;
+  max-width: 38.4rem;
+
+  .image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 52rem;
+    margin-bottom: 2.4rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s ease-in-out;
+    }
+
+    button {
+      position: absolute;
+      bottom: 0;
+      padding: 1.8rem 3.6rem;
+      background-color: #3265EA;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      opacity: 0;
+      transition: all .6s ease-in-out;
+    }
+  }
+
+  .info {
+    h3 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      margin-bottom: 0.7rem;
+    }
+
+    span {
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  &:hover {
+    .image {
+      img {
+        transform: scale(1.1);
+      }
+
+      button {
+        opacity: 1;
+        bottom: 57px;
+      }
+    }
+  }
+
+  @media(max-width: 1200px) {
+    .image {
+      height: 48rem;
+    }
+  }
+
+  @media(max-width: 560px) {
+    .image {
+      height: 42rem;
+    }
+  }
+
+  @media(max-width: 425px) {
+    .image {
+      height: 40rem;
+    }
+  }
+
+  @media(max-width: 375px) {
+    .image {
+      height: 38rem;
+    }
+  }
+}
