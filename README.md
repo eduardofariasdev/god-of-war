@@ -15,7 +15,7 @@ Evento gratuito promovido pela equipe do curso CodeBoost para ensino de tecnolog
   <img alt="Landing page do jogo God Of War Ragnarok" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologia
+## 🚀 Tecnologias
 
 As seguintes tecnologias foram utilizadas no desenvolvido desse projeto:
 
